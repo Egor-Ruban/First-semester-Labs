@@ -1,0 +1,11 @@
+all: main.o Func.o SubFunc.o
+	gcc -o Prog main.o Func.o SubFunc.o
+main.o: main.c
+	gcc -c main.c
+Func.o: Func.c
+	gcc -c Func.c
+SubFunc.o: SubFunc.c
+	gcc -c SubFunc.c
+
+Clear: 
+	del -rf *.o *.exe all
