@@ -1,0 +1,89 @@
+all: 301 302 303 304 305 306 307 308 309 310 311 312
+
+301: L34P1f.o L34P1.o 
+	gcc -o L34P1 L34P1f.o L34P1.o 
+L34P1f.o: L34P1f.c
+	gcc -c L34P1f.c
+L34P1.o: L34P1.c
+	gcc -c L34P1.c
+
+302: L302.o Func302.o
+	gcc -o W302 L302.o Func302.o
+Func302.o: Func302.c
+	gcc -c Func302.c
+L302.o: L302.c
+	gcc -c L302.c
+
+303: L303.o Func303.o
+	gcc -o W303 L303.o Func303.o
+Func303.o: Func303.c
+	gcc -c Func303.c
+L303.o: L303.c
+	gcc -c L303.c
+
+304: L304.o Func304.o
+	gcc -o W304 L304.o Func304.o
+Func304.o: Func304.c
+	gcc -c Func304.c
+L304.o: L304.c
+	gcc -c L304.c
+
+
+305: L305.o Func305.o
+	gcc -o W305 L305.o Func305.o
+Func305.o: Func305.c
+	gcc -c Func305.c
+L305.o: L305.c
+	gcc -c L305.c
+
+306: L306.o Func306.o
+	gcc -o W306 L306.o Func306.o
+Func306.o: Func306.c
+	gcc -c Func306.c
+L306.o: L306.c
+	gcc -c L306.c
+
+307: L307.o Func307.o
+	gcc -o W307 L307.o Func307.o
+Func307.o: Func307.c
+	gcc -c Func307.c
+L307.o: L307.c
+	gcc -c L307.c
+
+308: L308.o Func308.o
+	gcc -o W308 L308.o Func308.o
+Func308.o: Func308.c
+	gcc -c Func308.c
+L308.o: L308.c
+	gcc -c L308.c
+
+309: L309.o Func309.o
+	gcc -o W309 L309.o Func309.o
+Func309.o: Func309.c
+	gcc -c Func309.c
+L309.o: L309.c
+	gcc -c L309.c
+
+310: L310.o Func310.o
+	gcc -o W310 L310.o Func310.o
+Func310.o: Func310.c
+	gcc -c Func310.c
+L310.o: L310.c
+	gcc -c L310.c
+
+311: L311.o Func311.o
+	gcc -o W311 L311.o Func311.o
+Func311.o: Func311.c
+	gcc -c Func311.c
+L311.o: L311.c
+	gcc -c L311.c
+
+312: L312.o Func312.o
+	gcc -o W312 L312.o Func312.o
+Func312.o: Func312.c
+	gcc -c Func312.c
+L312.o: L312.c
+	gcc -c L312.c
+
+clean:
+	del -f *.o *.exe all

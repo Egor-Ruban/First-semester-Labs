@@ -1,0 +1,12 @@
+void GCD1(int a, int b);
+void Func302();
+void Func303(int a, int b);
+void Func304(int a);
+void Func305(int a);
+void Func306(int n, float y);
+void Func307(int *a, int i);
+void Func308(int a, int b, int c);
+void Func309(float x, float EPS);
+void Func310(int x, int p);
+void Func311(int a, int b);
+int Func312(int k);
